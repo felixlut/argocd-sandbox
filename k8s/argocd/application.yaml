@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/FridayCommit/seb-demo.git
+    repoURL: https://github.com/felixlut/argocd-sandbox.git
     targetRevision: HEAD
     path: k8s/argocd
   destination:
@@ -29,7 +29,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/FridayCommit/seb-demo.git
+    repoURL: https://github.com/felixlut/argocd-sandbox.git
     targetRevision: HEAD
     path: k8s/end-user
   destination:
